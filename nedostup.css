@@ -19,6 +19,8 @@ body {
   main > h2 {
     text-align: center;
     font-size: 25px;
+    color: red;
+    border: 1px solid yellow;
   }
   footer {
     text-align: right;
