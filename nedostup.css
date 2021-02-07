@@ -21,8 +21,13 @@ a {
     font-size: 36px;
     margin-bottom: 0;
   }
-  section {
-    
+ @keyframes color-change {
+   0% {color: red;}
+   50% {color:white;}
+   100% {color: red;}
+  }
+  .border {
+animation: color-change 5s infinite;
   }
   main > h2 {
     text-align: center;
@@ -30,7 +35,7 @@ a {
     color: red;
     border: 1px solid red;
     border-radius: 20px;
-    background-color: white;
+    background-color: hsla(278, 55%, 32%, 0.137);
     margin: 0 30 0 30;
   }
   footer {
