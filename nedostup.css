@@ -35,7 +35,7 @@ main > h2 {
   color: blue;
   border: 1px solid yellowgreen;
   border-radius: 20px;
-  background-color: hsla(278, 55%, 32%, 0.137);
+  background-color:white);
   margin: 0 30 0 30;
 }
 footer {
